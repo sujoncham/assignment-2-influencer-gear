@@ -5,6 +5,83 @@
 }
 
 body{
+    background: #f3f3f3;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.container{
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.influ-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.influ-text{
+    width: 50%;
+}
+
+.influ-img{
+    width: 50%;
+}
+
+.influ-img img{
+    width: 80%;
+}
+
+
+/*PartnerShip Name*/
+
+.partnership{
+    padding: 30px;
+}
+.partner-name{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/*collection product*/
+.collection h2{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.products{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.product-item{
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/*feature content*/
+
+.features-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*footer*/
+.footer{
+    height: 120px;
+    background: #805;
+}
+.footer-content{
+    text-align: center;
+}

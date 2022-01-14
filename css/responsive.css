@@ -1,24 +1,36 @@
 /* phones, 600px and down */
 @media only screen and (max-width: 600px) {
-    .container {background: red;}
+    .container {
+        /* background: #611154; */
+    }
+
+
   }
   
   /* portrait tablets and large phones, 600px and up*/
   @media only screen and (min-width: 600px) {
-    .container {background: green;}
+    .container {
+        /* background: green; */
+    }
   }
   
   /* landscape tablets, 768px and up*/
   @media only screen and (min-width: 768px) {
-    .container {background: blue;}
+    .container {
+        /* background: blue; */
+    }
   } 
   
   /* laptops/desktops, 992px and up */
   @media only screen and (min-width: 992px) {
-    .container {background: orange;}
+    .container {
+        /* background: orange; */
+    }
   } 
   
   /* large laptops and desktops, 1200px and up */
   @media only screen and (min-width: 1200px) {
-    .container {background: pink;}
+    .container {
+        /* background: pink; */
+    }
   }
