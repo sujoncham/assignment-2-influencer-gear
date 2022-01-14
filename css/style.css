@@ -14,10 +14,45 @@ body{
     margin: 0 auto;
 }
 
+/*header*/
+.header{
+    margin: 30px;
+}
 .header-content{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.logo-part h3{
+    font-size: 35px;
+    text-transform: uppercase;
+    color: #E02C6D;
+}
+
+.menu a{
+    padding: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #000000;
+}
+
+.menu a:hover{
+    background: #E02C6D;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.fav-icon i{
+    color: #E02C6D;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+/*influencer*/
+
+.influencer{
+    margin-bottom: 70px;
 }
 
 .influ-content{
@@ -32,12 +67,45 @@ body{
 
 .influ-img{
     width: 50%;
+    text-align: right;
 }
 
 .influ-img img{
-    width: 80%;
+    width: 440px;
+    height: 414px;
+    border-radius: 50%;
+    border: 1px solid #ddd;
 }
 
+.influ-text p{
+    margin-bottom: 30px;
+}
+
+.influ-text h2{
+    font-size: 60px;
+}
+
+.freebook{
+    padding: 10px 16px;
+    background: #E02C6D;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #ffffff;
+    transition: ease-in 0.3s;
+}
+
+.freebook:hover{
+    background: #000000;
+    color: #E02C6D;
+}
+
+/*hr design*/
+
+hr {
+    border: none;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(0,0,0,0), cornflowerblue, rgba(0,0,0,0));
+}
 
 /*PartnerShip Name*/
 
@@ -51,6 +119,10 @@ body{
 }
 
 /*collection product*/
+
+.collection{
+    margin-top: 70px;
+}
 .collection h2{
     margin-top: 30px;
     margin-bottom: 30px;
@@ -69,6 +141,20 @@ body{
     margin-bottom: 22px;
 }
 
+.item-text h3{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+
+.rate-icon{
+    margin-top: 15px;
+}
+
+.rate-icon i{
+    color: #f7ca04;
+}
+
 /*feature content*/
 
 .features-content{
@@ -79,8 +165,9 @@ body{
 
 /*footer*/
 .footer{
-    height: 120px;
-    background: #805;
+    padding: 45px;
+    background: #E02C6D;
+    color: #000;
 }
 .footer-content{
     text-align: center;
