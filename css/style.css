@@ -35,6 +35,7 @@ body{
     text-decoration: none;
     font-size: 25px;
     color: #000000;
+    transition: all ease .5s;
 }
 
 .menu a:hover{

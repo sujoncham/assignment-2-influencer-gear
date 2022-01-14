@@ -2,6 +2,42 @@
 @media only screen and (max-width: 600px) {
     .container {
         /* background: #611154; */
+        width: 100%;
+    }
+
+    .header{
+        display: none;
+    }
+
+    .influ-content{
+        flex-direction: column;
+    }
+
+    .influ-text{
+        order: 2;
+        width: 100%;
+    }
+
+    .influ-img{
+        order: 1;
+        width: 100%;
+        text-align: center;
+    }
+
+    .influ-img img{
+        text-align: justify;
+    }
+
+    .partner-name{
+        flex-wrap: wrap;
+    }
+
+    .partner-name img{
+        margin-bottom: 15px;
+    }
+    .products{
+        align-items: center;
+        justify-content: space-around;
     }
 
 
@@ -12,13 +48,30 @@
     .container {
         /* background: green; */
     }
+
+
   }
+
+   /* landscape tablets, 768px and up*/
+   @media only screen and (max-width: 768px) {
+    .container {
+        /* background: blue; */
+    }
+
+    .header{
+        display: none;
+    }
+
+  } 
   
   /* landscape tablets, 768px and up*/
   @media only screen and (min-width: 768px) {
     .container {
         /* background: blue; */
     }
+
+
+
   } 
   
   /* laptops/desktops, 992px and up */
