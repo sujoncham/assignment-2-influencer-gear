@@ -28,7 +28,7 @@
     }
 
     .influ-text h2 {
-        font-size: 45px;
+        font-size: 38px;
     }
 
     .influ-text{
@@ -300,6 +300,21 @@
     .header{
         background: #471947;
         padding: 10px;
+    }
+
+    .menu a {
+        padding: 8px;
+        font-size: 25px;
+    }
+
+    .influencer{
+        padding: 0px;
+        margin-top: 20px;
+    }
+
+    .influ-img {
+        width: 100%;
+        text-align: right;
     }
 
     .feature-item {
