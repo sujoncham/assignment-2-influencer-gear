@@ -38,12 +38,16 @@
     .influ-img{
         order: 1;
         width: 100%;
-        text-align: center;
+        background: url('../images/Circle\ design.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 418px 333px;
+        height: 344px;
     }
 
     .influ-img img{
         text-align: justify;
-        width: 50%;
+        width: 68%;
         height: auto;
     }
 
@@ -112,6 +116,15 @@
 
     .influencer{
         padding: 20px;
+    }
+
+    .influ-img{
+        order: 1;
+        width: 100%;
+        background: url('../images/Circle\ design.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 418px 333px;
     }
 
     .influ-text h2 {
@@ -218,13 +231,11 @@
     }
 
     .influ-text h2 {
-        font-size: 42px;
+        font-size: 38px;
     }
 
     .influ-img img {
-        text-align: justify;
-        width: 60%;
-        height: auto;
+        width: 100%;
     }
 
     .product-item{
