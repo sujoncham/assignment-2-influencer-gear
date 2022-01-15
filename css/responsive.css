@@ -1,12 +1,11 @@
 /* phones, 600px and down */
 @media only screen and (max-width: 600px) {
+    
     .container {
-        /* background: #611154; */
         width: 100%;
     }
 
     .header{
-        background: #ce5bce;
         padding: 10px;
     }
 
@@ -95,7 +94,6 @@
     }
 
     .header{
-        background: #808;
         padding: 10px;
     }
 
@@ -195,7 +193,6 @@
     }
 
     .header{
-        background: #b857b8;
         padding: 10px;
     }
 
@@ -254,7 +251,6 @@
     }
 
     .header{
-        background: #832483;
         padding: 10px;
     }
 
@@ -298,7 +294,6 @@
     }
 
     .header{
-        background: #471947;
         padding: 10px;
     }
 

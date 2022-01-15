@@ -183,9 +183,9 @@ hr {
 }
 
 .info-topic{
-    width: 42px;
+    width: 50px;
     display: inline-block;
-    font-size: 12px;
+    font-size: 15px;
 }
 
 /*feature content*/
@@ -240,13 +240,17 @@ hr {
     padding: 5px 10px;
     transition: all 0.5s;
     text-decoration: none;
-    margin-left: 12px;
+    margin-right: 12px;
 }
 
 .next-page:hover{
     background: #000000;
     color: #ffffff;
     border-radius: 25px;
+}
+
+.featurebtn{
+    margin-bottom: 20px;
 }
 
 /*footer*/
