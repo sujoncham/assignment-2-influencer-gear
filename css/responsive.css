@@ -26,6 +26,8 @@
 
     .influ-img img{
         text-align: justify;
+        width: 50%;
+        height: auto;
     }
 
     .partner-name{
@@ -38,6 +40,26 @@
     .products{
         align-items: center;
         justify-content: space-around;
+    }
+
+    .features-content{
+        flex-direction: column;
+    }
+
+    .feature-item{
+        border: 1px solid #c5c1c1;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        padding: 10px;
+    }
+
+    .features h2 {
+        padding-top: 5px;
+        padding-bottom: 12px;
+    }
+
+    .feature-item p {
+        margin-bottom: 25px;
     }
 
 
