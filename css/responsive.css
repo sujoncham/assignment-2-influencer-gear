@@ -185,10 +185,16 @@
         width: 48%;
     }
 
+    .features h1{
+        font-size: 28px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
     .features h2 {
         padding-top: 5px;
         padding-bottom: 12px;
-        font-size: 20px;
+        font-size: 16px;
     }
 
     .feature-item p {
@@ -247,7 +253,7 @@
     }
 
     .feature-text h2{
-        font-size: 20px;
+        font-size: 16px;
     }
 
     .feature-item {
@@ -281,6 +287,16 @@
 
     .influ-content{
         flex-direction: row;
+    }
+
+    .feature-text h2{
+        height: 86px;
+    }
+
+    .features h2 {
+        padding-top: 5px;
+        padding-bottom: 30px;
+        font-size: 22px;
     }
 
     .influ-text{
@@ -346,10 +362,14 @@
         width: 32%;
     }
 
+    .feature-text h2{
+        height: 96px;
+    }
+
     .features h2 {
         padding-top: 5px;
         padding-bottom: 30px;
-        font-size: 28px;
+        font-size: 25px;
     }
 
 
