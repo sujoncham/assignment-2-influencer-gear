@@ -85,10 +85,11 @@ body{
 
 .influ-text p{
     margin-bottom: 30px;
+    font-size: 16px;
 }
 
 .influ-text h2{
-    font-size: 50px;
+    font-size: 52px;
 }
 
 .freebook{
@@ -131,13 +132,14 @@ hr {
 .collection{
     margin-top: 70px;
     margin-bottom: 60px;
+    font-weight: 500;
 }
 
 .collection h2{
     margin-top: 30px;
     margin-bottom: 30px;
     text-align: center;
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 600;
 }
 
@@ -155,26 +157,42 @@ hr {
 }
 
 .item-text h3{
-    margin-top: 15px;
-    margin-bottom: 15px;
-    font-size: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 28px;
+}
+
+.item-text>p{
+    font-size: 24px;
+}
+
+.info-item>p{
+    font-size: 14px;
 }
 
 .rate-icon{
-    margin-top: 15px;
+    margin-top: 5px;
+}
+
+
+.rating{
+    font-size: 12px;
+    font-weight: 700;
 }
 
 .rate-icon i{
     color: #f7ca04;
+    font-size: 12px;
 }
 
 /*feature content*/
 
 .features{
-    text-align: center;
     background: #ffffff;
-    margin-top: 30px;
-    margin-bottom: 60px;
+}
+
+.features h2{
+    margin-top: 60px;
 }
 
 .features-content{
@@ -189,9 +207,18 @@ hr {
 }
 
 .next-page{
-    display: block;
-    text-align: right;
-    color: #E02C6D;
+        float: right;
+        color: #E02C6D;
+        clear: both;
+        padding: 5px 10px;
+        transition: all 0.5s;
+        text-decoration: none;
+}
+
+.next-page:hover{
+    background: #000000;
+    color: #ffffff;
+    border-radius: 25px;
 }
 
 /*footer*/
