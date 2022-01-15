@@ -254,6 +254,11 @@
         padding: 10px;
     }
 
+    .menu a {
+        padding: 8px;
+        font-size: 25px;
+    }
+
     .header-content{
         flex-direction: row;
     }
