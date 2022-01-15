@@ -201,7 +201,6 @@ hr {
 .features-content{
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 .feature-item img{

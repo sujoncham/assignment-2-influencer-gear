@@ -6,11 +6,29 @@
     }
 
     .header{
-        display: none;
+        background: #ce5bce;
+        padding: 10px;
+    }
+
+    .header-content{
+        flex-direction: column;
+    }
+
+    .menu a {
+        padding: 5px;
+        font-size: 15px;
     }
 
     .influ-content{
         flex-direction: column;
+    }
+
+    .influencer{
+        padding: 20px;
+    }
+
+    .influ-text h2 {
+        font-size: 45px;
     }
 
     .influ-text{
@@ -42,6 +60,10 @@
         justify-content: space-around;
     }
 
+    .features{
+        padding: 20px;
+    }
+
     .features-content{
         flex-direction: column;
     }
@@ -67,45 +89,222 @@
   
   /* portrait tablets and large phones, 600px and up*/
   @media only screen and (min-width: 600px) {
+      
     .container {
-        /* background: green; */
+        width: 100%;
+    }
+
+    .header{
+        background: #808;
+        padding: 10px;
+    }
+
+    .header-content{
+        flex-direction: column;
+    }
+
+    .menu a {
+        padding: 5px;
+        font-size: 15px;
+    }
+
+    .influ-content{
+        flex-direction: column;
+    }
+
+    .influencer{
+        padding: 20px;
+    }
+
+    .influ-text h2 {
+        font-size: 45px;
+    }
+
+    .influ-text{
+        order: 2;
+        width: 100%;
+    }
+
+    .influ-img{
+        order: 1;
+        width: 100%;
+        text-align: center;
+    }
+
+    .influ-img img{
+        text-align: justify;
+        width: 50%;
+        height: auto;
+    }
+
+    .partner-name{
+        flex-wrap: wrap;
+    }
+
+    .partner-name img{
+        padding: 10px;
+    }
+    .products{
+        justify-content: space-around;
+        flex-direction: row;
+    }
+
+    .product-item{
+        width: 46%;
+    }
+
+    .product-item img{
+        width: 100%;
+    }
+
+    .features{
+        padding: 20px;
+    }
+
+    .features-content{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .feature-item{
+        border: 1px solid #c5c1c1;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        padding: 10px;
+        width: 48%;
+    }
+
+    .features h2 {
+        padding-top: 5px;
+        padding-bottom: 12px;
+        font-size: 20px;
+    }
+
+    .feature-item p {
+        margin-bottom: 25px;
     }
 
 
   }
 
    /* landscape tablets, 768px and up*/
-   @media only screen and (max-width: 768px) {
+   @media only screen and (min-width: 768px) {
+    
     .container {
-        /* background: blue; */
+        width: 100%;
     }
 
     .header{
-        display: none;
+        background: #b857b8;
+        padding: 10px;
     }
+
+    .header-content{
+        flex-direction: row;
+    }
+
+    .influ-content{
+        flex-direction: row;
+    }
+
+    .influ-text{
+        order: 1;
+    }
+
+    .influ-img{
+        order: 2;
+    }
+
+    .influ-text h2 {
+        font-size: 42px;
+    }
+
+    .influ-img img {
+        text-align: justify;
+        width: 60%;
+        height: auto;
+    }
+
+    .product-item{
+        width: 28%;
+    }
+
+    .product-item img{
+        width: 100%;
+    }
+
+    .feature-text h2{
+        font-size: 20px;
+    }
+
+    .feature-item {
+        width: 32%;
+    }
+
 
   } 
   
-  /* landscape tablets, 768px and up*/
-  @media only screen and (min-width: 768px) {
-    .container {
-        /* background: blue; */
-    }
-
-
-
-  } 
+  
   
   /* laptops/desktops, 992px and up */
   @media only screen and (min-width: 992px) {
-    .container {
-        /* background: orange; */
+
+     .container {
+        width: 100%;
     }
+
+    .header{
+        background: #832483;
+        padding: 10px;
+    }
+
+    .header-content{
+        flex-direction: row;
+    }
+
+    .influ-content{
+        flex-direction: row;
+    }
+
+    .influ-text{
+        order: 1;
+    }
+
+    .influ-img{
+        order: 2;
+    }
+
+    .influ-text h2 {
+        font-size: 42px;
+    }
+
+    .influ-img img {
+        width: 80%;
+        height: auto;
+    }
+
+    .feature-item {
+        width: 32%;
+    }
+
+   
   } 
   
   /* large laptops and desktops, 1200px and up */
   @media only screen and (min-width: 1200px) {
-    .container {
-        /* background: pink; */
+
+     .container {
+        width: 1100px;
     }
+
+    .header{
+        background: #471947;
+        padding: 10px;
+    }
+
+    .feature-item {
+        width: 32%;
+    }
+
+
   }
