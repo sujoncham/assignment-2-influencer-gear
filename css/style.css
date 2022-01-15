@@ -51,7 +51,7 @@ body{
 
 .fav-icon i{
     color: #E02C6D;
-    font-size: 25px;
+    font-size: 20px;
     margin-left: 20px;
 }
 
@@ -109,10 +109,16 @@ body{
 
 /*hr design*/
 
-hr {
+.hr {
     border: none;
     height: 3px;
-    background-image: linear-gradient(to right, rgba(0,0,0,0), cornflowerblue, rgba(0,0,0,0));
+    background-image: linear-gradient(to right, rgba(0,0,0,0), #444, rgba(0,0,0,0));
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0,0,0,0), #444, rgba(0,0,0,0));
 }
 
 /*PartnerShip Name*/
