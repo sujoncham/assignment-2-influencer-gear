@@ -160,10 +160,7 @@ hr {
     margin-top: 5px;
     margin-bottom: 5px;
     font-size: 28px;
-}
-
-.item-text>p{
-    font-size: 24px;
+    font-weight: 500;
 }
 
 .info-item>p{
@@ -182,6 +179,12 @@ hr {
 
 .rate-icon i{
     color: #f7ca04;
+    font-size: 12px;
+}
+
+.info-topic{
+    width: 42px;
+    display: inline-block;
     font-size: 12px;
 }
 
@@ -231,12 +234,13 @@ hr {
 }
 
 .next-page{
-        float: right;
-        color: #E02C6D;
-        clear: both;
-        padding: 5px 10px;
-        transition: all 0.5s;
-        text-decoration: none;
+    float: right;
+    color: #E02C6D;
+    clear: both;
+    padding: 5px 10px;
+    transition: all 0.5s;
+    text-decoration: none;
+    margin-left: 12px;
 }
 
 .next-page:hover{
