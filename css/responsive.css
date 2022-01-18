@@ -291,9 +291,10 @@
         font-size: 25px;
     }
 
-    /* .header-content{
+    .header-content{
         flex-direction: row;
-    } */
+        justify-content: space-between !important;
+    }
 
     .influ-content{
         flex-direction: row;
