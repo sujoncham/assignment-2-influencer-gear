@@ -105,6 +105,10 @@
         flex-direction: column;
     }
 
+    .logo-part, .menu-part{
+        width: 100%;
+    }
+
     .menu a {
         padding: 5px;
         font-size: 15px;
@@ -216,7 +220,12 @@
     }
 
     .header-content{
-        flex-direction: row;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .logo-part, .menu-part{
+        width: 100%;
     }
 
     .menu a {
@@ -245,11 +254,12 @@
     }
 
     .product-item{
-        width: 28%;
+        width: 50% !important;
     }
 
     .product-item img{
-        width: 100%;
+        width: 100% !important;
+        height: auto !important;
     }
 
     .feature-text h2{
@@ -257,7 +267,7 @@
     }
 
     .feature-item {
-        width: 32%;
+        width: 50% !important;
     }
 
 
@@ -281,9 +291,9 @@
         font-size: 25px;
     }
 
-    .header-content{
+    /* .header-content{
         flex-direction: row;
-    }
+    } */
 
     .influ-content{
         flex-direction: row;
